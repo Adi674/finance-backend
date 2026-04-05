@@ -5,6 +5,12 @@ Implements role-based access control, financial records management, and aggregat
 
 > Built as part of a Backend Developer Intern assessment.
 
+# Backend Link
+https://finance-backend-0qjq.onrender.com/
+
+# Bakcend API Documentation
+https://finance-backend-0qjq.onrender.com/docs
+
 ---
 
 ## Table of Contents
@@ -41,7 +47,7 @@ All access control is enforced server-side in FastAPI middleware — the databas
 
 | Layer | Choice | Reason |
 |---|---|---|
-| Language | Python 3.11+ | Readable, widely adopted for backend services |
+| Language | Python 3.11.9 | Readable, widely adopted for backend services |
 | Framework | FastAPI | Async-ready, auto Swagger docs, Pydantic validation built-in |
 | Database | Supabase (PostgreSQL) | Managed cloud DB, zero infrastructure overhead |
 | DB Client | supabase-py | Official Python client, clean query API |
@@ -138,7 +144,7 @@ pip install -r requirements.txt
 ### 4. Configure environment variables
 
 ```bash
-cp .env.example .env
+cp .env
 # Fill in your Supabase and JWT values
 ```
 
